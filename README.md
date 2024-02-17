@@ -1,2 +1,2 @@
 # NoteTakingApplication
-A  test project with Note
+A  test project with Notes
