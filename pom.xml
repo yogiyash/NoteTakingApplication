@@ -11,6 +11,8 @@
     <java.version>17</java.version>
   </properties>
 
+
+
   <modules>
     <module>NotesServerApplication</module>
     <module>NotesClientApplication</module>
@@ -24,6 +26,17 @@
     <version>2.7.10</version>
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <optional>true</optional>
+    </dependency>
+
+  </dependencies>
+
   <packaging>pom</packaging>
 
   <build>
